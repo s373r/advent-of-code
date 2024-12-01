@@ -22,8 +22,9 @@
 //
 // What is the sum of all of the calibration values?
 
-use regex::Regex;
 use std::io::{BufRead, BufReader, Read};
+
+use regex::Regex;
 
 fn parse_digit(value: &str) -> u32 {
     let result = match value {
