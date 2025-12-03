@@ -86,7 +86,7 @@ fn test_example() {
     assert_eq!(1227775554, invalid_ids_sum(input));
 }
 
-// #[test]
+#[test]
 fn test_input() {
     let input = std::fs::read_to_string("input.txt").unwrap();
 
